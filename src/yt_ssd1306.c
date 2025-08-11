@@ -47,7 +47,8 @@ static const i2c_master_bus_config_t i2c_master_bus_config = {
     .sda_io_num = GPIO_NUM_21,
     .clk_source = I2C_CLK_SRC_DEFAULT,
     .glitch_ignore_cnt = 7,
-    .flags.enable_internal_pullup = true};
+    .flags.enable_internal_pullup = true
+    };
 
 
 /* SSD1306 */
