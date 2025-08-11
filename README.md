@@ -1,6 +1,6 @@
 # ESP32 Temperature & Humidity Sensor with BLE Beacon
 
-Hello! This project was a path for me to delve deeper into using FreeRTOS and BLE concepts in a real world setting. I created a comprehensive IoT temperature and humidity monitoring system built on the ESP32 platform using ESP-IDF framework. This project combines DHT22 sensor readings, OLED display output, and Bluetooth Low Energy (BLE) beacon functionality for wireless data transmission.
+Hello! This project was a path for me to delve deeper into using FreeRTOS, I2C protocols, and BLE concepts in a real world setting. I created a comprehensive IoT temperature and humidity monitoring system built on the ESP32 platform using ESP-IDF framework. This project combines DHT22 sensor readings, OLED display output, and Bluetooth Low Energy (BLE) beacon functionality for wireless data transmission.
 
 ## 🔍 Overview
 
