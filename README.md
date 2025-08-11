@@ -2,20 +2,6 @@
 
 Hello! This project was a path for me to delve deeper into using FreeRTOS and BLE concepts in a real world setting. I creatred a comprehensive IoT temperature and humidity monitoring system built on the ESP32 platform using ESP-IDF framework. This project combines DHT22 sensor readings, OLED display output, and Bluetooth Low Energy (BLE) beacon functionality for wireless data transmission.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Videos] (#videos)
-- [Hardware Requirements](#hardware-requirements)
-- [Software Architecture](#software-architecture)
-- [Features](#features)
-- [Pin Configuration](#pin-configuration)
-- [Installation & Setup](#installation--setup)
-- [Building and Flashing](#building-and-flashing)
-- [Usage](#usage)
-- [BLE Beacon Protocol](#ble-beacon-protocol)
-- [FreeRTOS Task Management](#freertos-task-management)
-
 ## 🔍 Overview
 
 This project continuously reads temperature and humidity data from a DHT22 sensor, displays the information on an SSD1306 OLED screen, and broadcasts the temperature data via BLE beacon using the Eddystone TLM (Telemetry) format.
