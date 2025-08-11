@@ -52,20 +52,17 @@ The project is built using the ESP-IDF framework with PlatformIO as the developm
 ### 🌡️ Environmental Sensing
 - **Temperature Measurement**: Accurate readings from DHT22 sensor
 - **Humidity Monitoring**: Relative humidity percentage tracking
-- **Automatic Unit Conversion**: Celsius to Fahrenheit conversion
-- **1-second Update Interval**: Real-time data refresh
+- **Sub 1-second Update Interval**: Real-time data refresh
 
 ### 📺 Display Interface
 - **OLED Visualization**: 128x64 pixel SSD1306 display
-- **Custom Boot Logo**: Startup animation with project branding
+- **I2C**: Utilized I2C communication between controller and display
 - **Multi-line Information**: Temperature, humidity, and status messages
 - **Clear Text Rendering**: 8x8 pixel font for readability
 
 ### 📡 Bluetooth Low Energy
 - **Eddystone TLM Beacon**: Industry-standard telemetry format
 - **Temperature Broadcasting**: Real-time temperature data transmission
-- **Device Identification**: Custom device name "TempSensor"
-- **Scan Response Data**: Enhanced device discovery
 - **Continuous Advertisement**: Automatic beacon restart
 
 ### ⚡ System Management
