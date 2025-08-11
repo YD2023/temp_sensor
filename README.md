@@ -40,7 +40,7 @@ The project is built using the ESP-IDF framework with PlatformIO as the developm
 - **FreeRTOS**: Real-time operating system for task management
 - **NimBLE**: Lightweight Bluetooth Low Energy stack
 - **DHT22 Library**: Sensor communication driver
-- **Custom SSD1306 Driver**: OLED display interface
+- **SSD1306 Driver**: OLED display interface
 
 ### Development Tools:
 - **PlatformIO**: Cross-platform IDE and build system
