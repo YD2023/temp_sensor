@@ -14,6 +14,7 @@ This project continuously reads temperature and humidity data from a DHT22 senso
 - **Data Buffering**: Ring buffer implementation for sensor data history
 
 ## 📁 Videos
+[![Watch the video](https://img.youtube.com/vi/1sJHljRCxrs/maxresdefault.jpg)](https://youtu.be/1sJHljRCxrs)
 
 ## 🛠 Hardware Requirements
 
