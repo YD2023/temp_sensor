@@ -1,10 +1,11 @@
 # ESP32 Temperature & Humidity Sensor with BLE Beacon
 
-A comprehensive IoT temperature and humidity monitoring system built on the ESP32 platform using ESP-IDF framework. This project combines DHT22 sensor readings, OLED display output, and Bluetooth Low Energy (BLE) beacon functionality for wireless data transmission.
+Hello! This project was a path for me to delve deeper into using FreeRTOS and BLE concepts in a real world setting. I creatred a comprehensive IoT temperature and humidity monitoring system built on the ESP32 platform using ESP-IDF framework. This project combines DHT22 sensor readings, OLED display output, and Bluetooth Low Energy (BLE) beacon functionality for wireless data transmission.
 
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Videos] (#videos)
 - [Hardware Requirements](#hardware-requirements)
 - [Software Architecture](#software-architecture)
 - [Features](#features)
@@ -13,16 +14,11 @@ A comprehensive IoT temperature and humidity monitoring system built on the ESP3
 - [Building and Flashing](#building-and-flashing)
 - [Usage](#usage)
 - [BLE Beacon Protocol](#ble-beacon-protocol)
-- [Code Structure](#code-structure)
 - [FreeRTOS Task Management](#freertos-task-management)
-- [Display Interface](#display-interface)
-- [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
 
 ## 🔍 Overview
 
-This project implements a multi-functional environmental monitoring system using an ESP32 microcontroller. It continuously reads temperature and humidity data from a DHT22 sensor, displays the information on an SSD1306 OLED screen, and broadcasts the temperature data via BLE beacon using the Eddystone TLM (Telemetry) format.
+This project continuously reads temperature and humidity data from a DHT22 sensor, displays the information on an SSD1306 OLED screen, and broadcasts the temperature data via BLE beacon using the Eddystone TLM (Telemetry) format.
 
 ### Key Capabilities:
 - **Real-time Environmental Monitoring**: Continuous temperature and humidity sensing
@@ -30,6 +26,8 @@ This project implements a multi-functional environmental monitoring system using
 - **Wireless Data Broadcasting**: BLE beacon transmission for remote monitoring
 - **Multi-tasking Architecture**: Efficient FreeRTOS-based task management
 - **Data Buffering**: Ring buffer implementation for sensor data history
+
+## 📁 Videos
 
 ## 🛠 Hardware Requirements
 
@@ -184,8 +182,6 @@ Frame Structure:
 - **Device Name**: "TempSensor"
 - **Advertisement Interval**: Continuous
 - **Scan Response**: Contains device identification
-
-## 📁 Videos and Usage
 
 
 ## ⚙️ FreeRTOS Task Management
