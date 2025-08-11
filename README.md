@@ -14,6 +14,8 @@ This project continuously reads temperature and humidity data from a DHT22 senso
 - **Data Buffering**: Ring buffer implementation for sensor data history
 
 ## 📁 Videos
+- **Example**: Below is the project in use as well as BLE reading that were recognized through the RF connect app.
+
 [![Watch the video](https://img.youtube.com/vi/1sJHljRCxrs/maxresdefault.jpg)](https://youtu.be/1sJHljRCxrs)
 
 ## 🛠 Hardware Requirements
