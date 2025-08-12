@@ -116,7 +116,6 @@ The project uses the following libraries (automatically managed by PlatformIO):
 ```ini
 lib_deps = 
     andrey-m/DHT22 C|C++ library for ESP32 (ESP-IDF)@^1.0.6
-    k0i05/esp_ssd1306@^1.2.6
 ```
 
 ## 🔨 Building and Flashing
