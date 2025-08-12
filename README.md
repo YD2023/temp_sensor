@@ -132,14 +132,6 @@ pio run --target upload
 pio device monitor
 ```
 
-### Display Information:
-```
-Hello 1113!
-Hum: 45.2
-Tmp: 72.5 F
-Have a
-Good Day!
-```
 
 ## 📡 BLE Beacon Protocol
 
